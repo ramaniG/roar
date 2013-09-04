@@ -1,0 +1,40 @@
+.thumbnail img {
+	overflow: hidden;
+	height: 120px;
+}
+
+.roarfont1 {
+font-size: 13px;
+padding-top: 5px;
+padding-left: 2px;
+line-height: 16px;
+color: white;
+}
+
+.roarfont2 {
+font-size: 12px;
+padding-left: 2px;
+}
+
+.roarfont3 {
+font-size: 13px;
+color: #D8D8D8;
+padding-left: 20px;
+padding-right: 60px;
+line-height: 20px;
+margin-bottom: 20px;
+}
+
+.roartitle {
+letter-spacing: 0px;
+font-size: 17px;
+font-weight: bold;
+font-family: 'Raleway', sans-serif;
+}
+
+.thumbnails>li.span2 {
+
+margin-bottom: 20px !important;
+padding-bottom: 45px !important;
+
+}

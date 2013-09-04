@@ -1,0 +1,42 @@
+	<div id="top">
+		<div id="xtra">
+        	<a href="#" class="roarservation"></a>
+			<a href="#" class="rock" title="ROAR!!!">Rock Sign</a>
+            <a href="<?php echo ROOT; ?>register.php" class="js-blink-infinite" title="Register!">Register As a Member Now !!</a>
+		</div>
+		<script src="<?php echo ROOT; ?>js/jquery.modern-blink.js"></script>
+		<script>
+			jQuery(function($) {
+				$('.js-blink-infinite').modernBlink();
+
+				$('.js-blink-5').modernBlink({
+					iterationCount: 5
+				});
+
+				$('.js-blink-manual').modernBlink({
+					auto: false
+				});
+				$('.js-btn-start').on( 'click', function() {
+					$('.js-blink-manual').modernBlink('start');
+				});
+				$('.js-btn-stop').on( 'click', function() {
+					$('.js-blink-manual').modernBlink('stop');
+				});
+
+				$('.js-blink-furiously').modernBlink({
+					duration: '300'
+				});
+			});
+		</script>
+		
+		<div id="menu">
+        	<ul>
+        		<li><div><div><div><a class="cufon" href="<?php echo ROOT; ?>studio.php">Studio</a></div></div></div></li>
+            	<li><div><div><div><a class="cufon" href="<?php echo ROOT; ?>events-gallery.php">Events</a><span style="margin-left:15px">COMING SOON!!!</span></div></div></div></li>
+            	<li><div><div><div><a class="cufon" href="<?php echo ROOT; ?>roarcademy.php">Roarcademy</a><span style="margin-left:22px"></span></div></div></div></li>
+            	<li><div><div><div><a class="cufon" href="<?php echo ROOT; ?>contact.php">Contact Us</a></div></div></div></li>
+				<li><div><div><div><a class="cufon" href="<?php echo ROOT; ?>login.php">Login</a><span style="margin-left:10px">COMING SOON!!!</span></div></div></div></li>
+        	</ul>
+		</div>
+    </div>
+    <div class="clear"></div>
